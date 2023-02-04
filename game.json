@@ -7399,7 +7399,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9239,7 +9238,7 @@
                     "",
                     "\"SleepingCat\"",
                     ">",
-                    "10"
+                    "RandomInRange(10,20)"
                   ]
                 }
               ],
@@ -9265,6 +9264,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
