@@ -1,8 +1,10 @@
-# calsjourney
+# Cal's journey
+
+Play a cozy journey with Cal, the lazy cat.
 
 
-
-
+ ⚠️ Spoiler alert!
+The cat is a normal cat. He finds something interesting and leaves the house after it. He keeps doing it as a mission, following his cat instincts, as it should be. The player doesn't know in the beginning of the game that this is the reason the cat and his owner are separated, after all, he's an ordinary cat doing cat stuff. When he plays with the girl, though, he starts thinking where is my cat? And his mission with the girl is to search for the cat. The idea is to make the player feel guilty for bringing the cat to a place so far from home. But not make them uncomfortable because he knows the cat is fine and he knows it, for he can play with the cat whenever he wants.
 
 ## Credits:
 
