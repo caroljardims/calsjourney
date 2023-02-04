@@ -2055,6 +2055,63 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Refrigerator.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Refrigerator.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/OpenRefrigerator.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/OpenRefrigerator.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/KitchenSink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/KitchenSink.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/SinkWater.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/SinkWater.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/FlowingWater.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/FlowingWater.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/tv-sounds.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/tv-sounds.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2090,7 +2147,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 5.349190252027198,
+        "zoomFactor": 1.174315867046319,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2117,6 +2174,12 @@
             },
             {
               "name": "Stove"
+            },
+            {
+              "name": "KitchenSink"
+            },
+            {
+              "name": "Refrigerator"
             }
           ]
         },
@@ -2209,8 +2272,8 @@
           "name": "Cactus",
           "persistentUuid": "e6834954-2030-431a-bceb-9c3aac7c8f23",
           "width": 0,
-          "x": 528,
-          "y": 576,
+          "x": 462,
+          "y": 579,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2224,8 +2287,8 @@
           "name": "Cat",
           "persistentUuid": "8f5fcb07-f3c1-4239-9757-f1681ae4ffd4",
           "width": 0,
-          "x": 294,
-          "y": 520,
+          "x": 313,
+          "y": 501,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2239,8 +2302,8 @@
           "name": "Girl",
           "persistentUuid": "26588ded-3eea-4770-be0f-2d82e17d24b9",
           "width": 0,
-          "x": 320,
-          "y": 529,
+          "x": 381,
+          "y": 556,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2284,8 +2347,8 @@
           "name": "Couch",
           "persistentUuid": "40c6ce74-21fc-4ba7-a14f-85932da6609d",
           "width": 0,
-          "x": 339,
-          "y": 447,
+          "x": 284,
+          "y": 450,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2294,29 +2357,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 112,
+          "height": 76,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "57b06b7e-69fa-440c-81a5-50d34cb8d3aa",
           "width": 8,
-          "x": 458,
+          "x": 401,
           "y": 428,
           "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 63,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "c16e0604-ca49-4561-bf6b-a1bac7491611",
-          "width": 7,
-          "x": 448,
-          "y": 589,
-          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2328,7 +2376,7 @@
           "layer": "",
           "name": "Wall",
           "persistentUuid": "cdbae0a5-13b8-4a2d-8811-6e99de40f0cd",
-          "width": 305,
+          "width": 240,
           "x": 248,
           "y": 428,
           "zOrder": -900,
@@ -2339,7 +2387,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 95,
+          "height": 71,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "2182341e-3ed7-493b-bdc5-777e6bb32460",
@@ -2358,9 +2406,9 @@
           "layer": "",
           "name": "Wall",
           "persistentUuid": "1813bb63-e736-4283-ae76-b7076c14ea60",
-          "width": 305,
+          "width": 239,
           "x": 249,
-          "y": 679,
+          "y": 592,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -2369,13 +2417,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 252,
+          "height": 176,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "8f23bb67-d3cd-44b5-a3ff-55fac7002cca",
           "width": 16,
-          "x": 538,
-          "y": 433,
+          "x": 472,
+          "y": 431,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -2384,13 +2432,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 7,
+          "height": 15,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "4af4f0f7-e745-4489-95a7-32948e2fc2bd",
-          "width": 85,
-          "x": 453,
-          "y": 589,
+          "width": 108,
+          "x": 365,
+          "y": 529,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -2404,8 +2452,8 @@
           "name": "Cactus",
           "persistentUuid": "185180d4-3a5b-4f35-ba40-408f17476dd4",
           "width": 0,
-          "x": 598,
-          "y": 555,
+          "x": 513,
+          "y": 501,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -2414,13 +2462,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 104,
+          "height": 71,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "90a8a49c-f57d-452a-8ff5-16c1609792d8",
           "width": 16,
           "x": 249,
-          "y": 590,
+          "y": 536,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -2478,8 +2526,8 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "e9330a8c-4100-4117-9562-4a8533ca2e3e",
-          "width": 153,
-          "x": 553,
+          "width": 220,
+          "x": 486,
           "y": 432,
           "zOrder": -999,
           "numberProperties": [],
@@ -2489,13 +2537,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 76,
+          "height": 165,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "8f66a4a4-6f2a-4376-80e0-caabb2e738a9",
           "width": 443,
           "x": 192,
-          "y": 695,
+          "y": 606,
           "zOrder": -999,
           "numberProperties": [],
           "stringProperties": [],
@@ -2504,12 +2552,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 93,
+          "height": 59,
           "layer": "",
           "name": "BathroomTile",
           "persistentUuid": "4930a84f-bff3-40eb-969e-2f159d3f63f2",
           "width": 78,
-          "x": 460,
+          "x": 409,
           "y": 442,
           "zOrder": -999,
           "numberProperties": [],
@@ -2524,8 +2572,8 @@
           "name": "Shower",
           "persistentUuid": "6e00db09-b853-4ab4-80de-1801977ffb8e",
           "width": 0,
-          "x": 466,
-          "y": 447,
+          "x": 408,
+          "y": 450,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -2539,8 +2587,8 @@
           "name": "ShowerKnob",
           "persistentUuid": "2b49990b-b485-4175-8ae3-be2c4033fc91",
           "width": 0,
-          "x": 466,
-          "y": 467,
+          "x": 408,
+          "y": 466,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -2554,7 +2602,7 @@
           "name": "Toilet",
           "persistentUuid": "26d14b20-2b8c-460b-8dc1-5fffc49ab288",
           "width": 0,
-          "x": 516,
+          "x": 432,
           "y": 444,
           "zOrder": 28,
           "numberProperties": [],
@@ -2569,8 +2617,8 @@
           "name": "Bed",
           "persistentUuid": "8b25ec86-e5b3-4863-b343-9a451e32b404",
           "width": 0,
-          "x": 480,
-          "y": 597,
+          "x": 403,
+          "y": 553,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -2584,8 +2632,8 @@
           "name": "Sink",
           "persistentUuid": "c78fd2a1-d402-41fa-b581-ff645c25432d",
           "width": 0,
-          "x": 522,
-          "y": 494,
+          "x": 456,
+          "y": 470,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -2599,7 +2647,7 @@
           "name": "TV",
           "persistentUuid": "f35989ad-204b-463b-9532-f7984c7da6ae",
           "width": 0,
-          "x": 343,
+          "x": 285,
           "y": 472,
           "zOrder": 31,
           "numberProperties": [],
@@ -2609,12 +2657,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 58,
+          "height": 67,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "ba3f618d-8903-4c9d-abe0-d81959a971c7",
           "width": 6,
-          "x": 384,
+          "x": 330,
           "y": 439,
           "zOrder": -900,
           "numberProperties": [],
@@ -2624,29 +2672,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 7,
+          "height": 6,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "3d272d65-2597-4889-9d52-ed77decea8f0",
-          "width": 122,
-          "x": 386,
-          "y": 534,
+          "width": 93,
+          "x": 357,
+          "y": 498,
           "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 18,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "bdb5e935-cd62-4625-8dae-c7166e3d82ad",
-          "width": 5,
-          "x": 385,
-          "y": 522,
-          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2659,8 +2692,8 @@
           "name": "Stove",
           "persistentUuid": "ec6d2a06-a2f2-4f55-baa7-da75bd223745",
           "width": 0,
-          "x": 441,
-          "y": 517,
+          "x": 385,
+          "y": 482,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -2674,9 +2707,69 @@
           "name": "PC",
           "persistentUuid": "f23633b7-3c53-4c92-99de-750edc851fb3",
           "width": 0,
-          "x": 282,
-          "y": 445,
+          "x": 284,
+          "y": 554,
           "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Refrigerator",
+          "persistentUuid": "f920572b-e153-430f-9cd8-a08d29fb70d6",
+          "width": 0,
+          "x": 384,
+          "y": 440,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20,
+          "layer": "",
+          "name": "KitchenSink",
+          "persistentUuid": "0d133303-bc0b-4627-8436-5ec77e863132",
+          "width": 41,
+          "x": 340,
+          "y": 443,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "74a567fb-7d6f-47a2-b8d0-ac6e29ae3d61",
+          "width": 6,
+          "x": 331,
+          "y": 529,
+          "zOrder": -900,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 14,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "ef628389-069d-4904-b0ba-f803f6afefbe",
+          "width": 57,
+          "x": 249,
+          "y": 532,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6374,6 +6467,76 @@
         },
         {
           "assetStoreId": "",
+          "name": "Refrigerator",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Closed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Refrigerator.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Opened",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/OpenRefrigerator.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
           "name": "PC",
           "tags": "",
           "type": "Sprite",
@@ -6412,6 +6575,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "KitchenSink",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/KitchenSink.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -6420,7 +6624,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Start Game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6444,7 +6647,7 @@
                   },
                   "parameters": [
                     "",
-                    "6",
+                    "7",
                     "",
                     ""
                   ]
@@ -6477,6 +6680,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6649,6 +6853,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Tweening",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7660,7 +7865,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Sleeping",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7992,69 +8196,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Cat",
-                    "Couch",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "e"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Cat",
-                        "\"Sleeping\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreXY"
-                      },
-                      "parameters": [
-                        "Cat",
-                        "=",
-                        "Couch.X() + Cat.Width()",
-                        "=",
-                        "Couch.Y() - Couch.Height()/2"
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -8064,6 +8205,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Bathroom",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8132,6 +8274,19 @@
                         "=",
                         "ShowerKnob.Y() - 8"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/FlowingWater.wav",
+                        "3",
+                        "yes",
+                        "",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -8162,6 +8317,15 @@
                   "parameters": [
                     "BubbleShower",
                     "SleepingZs"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
                   ]
                 }
               ]
@@ -8230,7 +8394,7 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "3"
+                        "2"
                       ]
                     },
                     {
@@ -8328,6 +8492,19 @@
                         "Sink.CenterY()",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/FlowingWater.wav",
+                        "2",
+                        "yes",
+                        "",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -8359,6 +8536,15 @@
                     "BubbleSink",
                     "SleepingZs"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
                 }
               ]
             }
@@ -8370,13 +8556,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Living Room",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8384,8 +8568,8 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Girl",
-                    "PC",
+                    "Cat",
+                    "Couch",
                     "",
                     "",
                     ""
@@ -8419,8 +8603,8 @@
                         "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "Girl",
-                        "\"PC\""
+                        "Cat",
+                        "\"Sleeping\""
                       ]
                     },
                     {
@@ -8428,55 +8612,13 @@
                         "value": "MettreXY"
                       },
                       "parameters": [
-                        "Girl",
+                        "Cat",
                         "=",
-                        "PC.X()+4",
+                        "Couch.X() + Cat.Width()",
                         "=",
-                        "PC.Y() + 2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySoundCanal"
-                      },
-                      "parameters": [
-                        "",
-                        "assets/typing.wav",
-                        "1",
-                        "yes",
-                        "",
-                        ""
+                        "Couch.Y() - Couch.Height()/2"
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Girl",
-                    "PC",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "StopSoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "1"
                   ]
                 }
               ]
@@ -8547,6 +8689,19 @@
                         "=",
                         "Couch.Y() - 9"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/tv-sounds.mp3",
+                        "4",
+                        "yes",
+                        "25",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -8568,7 +8723,17 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -8611,6 +8776,32 @@
                         "Couch.Y() - 9"
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Girl",
+                    "\"Popcorn\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "4"
                   ]
                 }
               ]
@@ -8732,6 +8923,214 @@
                         "\"StoveOff\""
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Girl",
+                    "Refrigerator",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Girl",
+                        "\"Idle Right\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Girl",
+                        "=",
+                        "Refrigerator.X() - Girl.Width()",
+                        "=",
+                        "Refrigerator.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Refrigerator",
+                        "\"Opened\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Refrigerator",
+                        "\"Closed\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Office",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Girl",
+                    "PC",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Girl",
+                        "\"PC\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Girl",
+                        "=",
+                        "PC.X()+4",
+                        "=",
+                        "PC.Y() + 2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/typing.wav",
+                        "1",
+                        "yes",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Girl",
+                    "PC",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
                   ]
                 }
               ]
