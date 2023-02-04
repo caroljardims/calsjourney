@@ -7399,6 +7399,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7419,7 +7420,7 @@
                   "colorR": 74,
                   "creationTime": 0,
                   "folded": true,
-                  "name": "Tutorial 1",
+                  "name": "Tutorial",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -7594,114 +7595,114 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "txtStatus",
+                            "=",
+                            "\"Tutorial2\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"Press S to switch characters!\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "s"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetGlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "tutorialOn",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"Cal can interact with some objects when pressing E too ;)\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"Cal may fall asleep when he's not moving for a while... But don't worry, he's fine!!\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"\""
+                          ]
+                        }
+                      ]
                     }
                   ],
                   "parameters": []
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjetTxt"
-                      },
-                      "parameters": [
-                        "StatusBoxText",
-                        "txtStatus",
-                        "=",
-                        "\"Tutorial2\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BBText::SetBBText"
-                      },
-                      "parameters": [
-                        "StatusBoxText",
-                        "=",
-                        "\"Press S to switch characters!\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "s"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetGlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "tutorialOn",
-                        "False"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BBText::SetBBText"
-                      },
-                      "parameters": [
-                        "StatusBoxText",
-                        "=",
-                        "\"Cal can interact with some objects when pressing E too ;)\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BBText::SetBBText"
-                      },
-                      "parameters": [
-                        "StatusBoxText",
-                        "=",
-                        "\"Cal will fall asleep when he's not moving for a while... But don't worry, he's fine!!\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BBText::SetBBText"
-                      },
-                      "parameters": [
-                        "StatusBoxText",
-                        "=",
-                        "\"\""
-                      ]
-                    }
-                  ]
                 }
               ]
             },
