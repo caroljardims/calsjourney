@@ -4,14 +4,14 @@
 
 
 
-Credits:
+## Credits:
 
-Font
+### Font
 
 <a href="https://www.dafont.com/pt/8-bit-hud.font">8-bit HUD</a> by Seba Perez
 
 
-Sounds and music
+### Sounds and music
 
 Sound Effect from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=28700">Pixabay</a>
 
