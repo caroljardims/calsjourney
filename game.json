@@ -2112,6 +2112,145 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/switch.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/switch.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Butterfly4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Butterfly4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Butterfly3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Butterfly3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Butterfly2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Butterfly2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Butterfly1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Butterfly1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CatEating4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/CatEating4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CatEating3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/CatEating3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CatEating2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/CatEating2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CatEating1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/CatEating1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CatBowl.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/CatBowl.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/chewing.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/chewing.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/lullaby.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/lullaby.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/lofi.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/lofi.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SpeakerOn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/SpeakerOn.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SpeakerOff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/SpeakerOff.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2147,7 +2286,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.174315867046319,
+        "zoomFactor": 0.29357896676157813,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2212,8 +2351,8 @@
           "name": "CameraTopBorder",
           "persistentUuid": "df16ae26-d318-41fd-97b2-1fac4d189974",
           "width": 604,
-          "x": 113,
-          "y": 394,
+          "x": 112,
+          "y": 258,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2222,13 +2361,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 397,
+          "height": 532,
           "layer": "",
           "name": "CameraRightBorder",
           "persistentUuid": "dd5f2838-7560-44f9-9237-337835b8408e",
           "width": 8,
           "x": 703,
-          "y": 384,
+          "y": 249,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2237,13 +2376,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 395,
+          "height": 531,
           "layer": "",
           "name": "CameraLeftBorder",
           "persistentUuid": "5f431c9d-4493-4414-9558-aff2c41edc26",
           "width": 10,
           "x": 108,
-          "y": 386,
+          "y": 251,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2287,8 +2426,8 @@
           "name": "Cat",
           "persistentUuid": "8f5fcb07-f3c1-4239-9757-f1681ae4ffd4",
           "width": 0,
-          "x": 313,
-          "y": 501,
+          "x": 298,
+          "y": 513,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2302,8 +2441,8 @@
           "name": "Girl",
           "persistentUuid": "26588ded-3eea-4770-be0f-2d82e17d24b9",
           "width": 0,
-          "x": 381,
-          "y": 556,
+          "x": 279,
+          "y": 505,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2347,8 +2486,8 @@
           "name": "Couch",
           "persistentUuid": "40c6ce74-21fc-4ba7-a14f-85932da6609d",
           "width": 0,
-          "x": 284,
-          "y": 450,
+          "x": 281,
+          "y": 453,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2507,13 +2646,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 41,
+          "height": 176,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "8b391e88-88ee-4832-9b1f-16b2ac2ec998",
-          "width": 512,
-          "x": 192,
-          "y": 392,
+          "width": 596,
+          "x": 109,
+          "y": 257,
           "zOrder": -999,
           "numberProperties": [],
           "stringProperties": [],
@@ -2556,8 +2695,8 @@
           "layer": "",
           "name": "BathroomTile",
           "persistentUuid": "4930a84f-bff3-40eb-969e-2f159d3f63f2",
-          "width": 78,
-          "x": 409,
+          "width": 153,
+          "x": 334,
           "y": 442,
           "zOrder": -999,
           "numberProperties": [],
@@ -2617,8 +2756,8 @@
           "name": "Bed",
           "persistentUuid": "8b25ec86-e5b3-4863-b343-9a451e32b404",
           "width": 0,
-          "x": 403,
-          "y": 553,
+          "x": 402,
+          "y": 544,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -2633,7 +2772,7 @@
           "persistentUuid": "c78fd2a1-d402-41fa-b581-ff645c25432d",
           "width": 0,
           "x": 456,
-          "y": 470,
+          "y": 477,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -2647,8 +2786,8 @@
           "name": "TV",
           "persistentUuid": "f35989ad-204b-463b-9532-f7984c7da6ae",
           "width": 0,
-          "x": 285,
-          "y": 472,
+          "x": 281,
+          "y": 473,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -2676,7 +2815,7 @@
           "layer": "",
           "name": "Wall",
           "persistentUuid": "3d272d65-2597-4889-9d52-ed77decea8f0",
-          "width": 93,
+          "width": 69,
           "x": 357,
           "y": 498,
           "zOrder": 32,
@@ -2737,8 +2876,8 @@
           "name": "KitchenSink",
           "persistentUuid": "0d133303-bc0b-4627-8436-5ec77e863132",
           "width": 41,
-          "x": 340,
-          "y": 443,
+          "x": 336,
+          "y": 440,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -2770,6 +2909,66 @@
           "x": 249,
           "y": 532,
           "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 9,
+          "layer": "",
+          "name": "Butterfly",
+          "persistentUuid": "33e62a08-a378-4b2f-a95b-612d5f53a3eb",
+          "width": 10,
+          "x": 178,
+          "y": 411,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CatBowl",
+          "persistentUuid": "946600cf-e26a-4cd7-b7f8-79dc5c4d01f8",
+          "width": 0,
+          "x": 337,
+          "y": 473,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 6,
+          "layer": "",
+          "name": "Wall",
+          "persistentUuid": "54cc863c-d3dc-4956-b416-f7b246e45586",
+          "width": 33,
+          "x": 455,
+          "y": 498,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 105,
+          "layer": "UI",
+          "name": "Speaker",
+          "persistentUuid": "77562992-c209-4933-8fcb-1f2197d61b12",
+          "width": 105,
+          "x": 1791,
+          "y": 19,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3731,6 +3930,86 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets/CatSleeping1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Eating",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/CatEating4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/CatEating3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/CatEating2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/CatEating1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6616,6 +6895,216 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Butterfly",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Butterfly4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Butterfly3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Butterfly2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Butterfly1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "CatBowl",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/CatBowl.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Speaker",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "soundPlaying",
+              "type": "boolean",
+              "value": true
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "SoundOn",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/SpeakerOn.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "SoundOff",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/SpeakerOff.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -6659,7 +7148,7 @@
                   "parameters": [
                     "PlayerId",
                     "=",
-                    "1"
+                    "0"
                   ]
                 },
                 {
@@ -6668,6 +7157,134 @@
                   },
                   "parameters": [
                     "CharSelection"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/lofi.mp3",
+                    "yes",
+                    "5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Speaker",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ToggleObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Speaker",
+                    "soundPlaying"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Speaker",
+                        "soundPlaying",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModGlobalVolume"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Speaker",
+                        "\"SoundOff\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Speaker",
+                        "soundPlaying",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModGlobalVolume"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "100"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Speaker",
+                        "\"SoundOn\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -7260,10 +7877,32 @@
                 },
                 {
                   "type": {
+                    "value": "TextObject::SetOutline"
+                  },
+                  "parameters": [
+                    "CharSelection",
+                    "\"128;85;140\"",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
                     "CharSelection",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/switch.wav",
+                    "",
+                    "50",
                     ""
                   ]
                 }
@@ -7652,7 +8291,7 @@
                                 "",
                                 "assets/meow2.wav",
                                 "",
-                                "",
+                                "30",
                                 ""
                               ]
                             }
@@ -8196,6 +8835,40 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Cat",
+                    "\"Sleeping\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/lullaby.wav",
+                    "",
+                    "70",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -8556,6 +9229,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Living Room",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8896,6 +9570,82 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Cat",
+                    "CatBowl",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Cat",
+                        "\"Eating\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Cat",
+                        "=",
+                        "CatBowl.X() + 6",
+                        "=",
+                        "CatBowl.Y() - 8"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets/chewing.mp3",
+                        "5",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "inverted": true,
                     "value": "CollisionNP"
                   },
@@ -8923,6 +9673,32 @@
                         "\"StoveOff\""
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Cat",
+                    "\"Eating\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
                   ]
                 }
               ]
@@ -9184,6 +9960,48 @@
           "type": "Tween::TweenBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
