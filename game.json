@@ -2251,6 +2251,24 @@
         "name": "assets/SpeakerOff.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Background.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Background2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2263,6 +2281,12 @@
       "name": "playerIsSwitching",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "tutorialOn",
+      "type": "boolean",
+      "value": true
     }
   ],
   "layouts": [
@@ -2286,7 +2310,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.29357896676157813,
+        "zoomFactor": 0.33432439075169623,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2330,6 +2354,23 @@
             },
             {
               "name": "Girl"
+            }
+          ]
+        },
+        {
+          "name": "StatusBox",
+          "objects": [
+            {
+              "name": "Background"
+            },
+            {
+              "name": "Background2"
+            },
+            {
+              "name": "StatusBoxBitmapText"
+            },
+            {
+              "name": "Speaker"
             }
           ]
         }
@@ -2451,13 +2492,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 254,
+          "height": 106,
           "layer": "UI",
           "name": "CharSelection",
           "persistentUuid": "dc974444-c33f-47aa-8251-bb3eef95b862",
-          "width": 355,
-          "x": 2,
-          "y": 3,
+          "width": 387,
+          "x": 52,
+          "y": 18,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2961,14 +3002,59 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 105,
+          "height": 89,
           "layer": "UI",
           "name": "Speaker",
           "persistentUuid": "77562992-c209-4933-8fcb-1f2197d61b12",
-          "width": 105,
-          "x": 1791,
-          "y": 19,
+          "width": 89,
+          "x": 1815,
+          "y": 13,
           "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 126,
+          "layer": "UI",
+          "name": "Background",
+          "persistentUuid": "6b50e34b-a0a1-49df-81d4-b5b5c9fdca46",
+          "width": 1922,
+          "x": 0,
+          "y": 0,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "UI",
+          "name": "Background2",
+          "persistentUuid": "3e60a048-4151-46bb-bbd3-d21d198cc674",
+          "width": 1924,
+          "x": -2,
+          "y": 110,
+          "zOrder": -5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 82,
+          "layer": "UI",
+          "name": "StatusBoxText",
+          "persistentUuid": "875e6176-9d56-455c-b2d8-326c2fed9f16",
+          "width": 698,
+          "x": 1106,
+          "y": 15,
+          "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6052,7 +6138,7 @@
           "string": "Player Switch!",
           "font": "assets/8-bit-pusab.ttf",
           "textAlignment": "center",
-          "characterSize": 50,
+          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
@@ -7105,6 +7191,76 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "StatusBoxBitmapText",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "This text use the default bitmap font.\nUse a custom Bitmap Font to create your own texts.",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "right",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Background",
+          "tags": "",
+          "texture": "assets/Background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Background2",
+          "tags": "",
+          "texture": "assets/Background2.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "StatusBoxText",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [
+            {
+              "folded": true,
+              "name": "txtStatus",
+              "type": "string",
+              "value": "Intro"
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "assets/8-bit-pusab.ttf",
+            "align": "left",
+            "wordWrap": true
+          }
         }
       ],
       "events": [
@@ -7171,9 +7327,386 @@
                     ""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Intro\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "=",
+                        "\"Welcome to Cal's home :)\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BBText::SetFontSize"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "=",
+                        "20"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial1\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "=",
+                        "\"Press the arrow buttons to move your character!\""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "tutorialOn",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Tutorial 1",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Up"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "txtStatus",
+                            "=",
+                            "\"Tutorial1\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"Press E to interact with the house's objects\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "NumpadLeft"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "txtStatus",
+                            "=",
+                            "\"Tutorial1\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"Press E to interact with the house's objects\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "NumpadRight"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "txtStatus",
+                            "=",
+                            "\"Tutorial1\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"Press E to interact with the house's objects\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "NumpadDown"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "txtStatus",
+                            "=",
+                            "\"Tutorial1\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"Press E to interact with the house's objects\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "=",
+                        "\"Press S to switch characters!\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "s"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetGlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "tutorialOn",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "=",
+                        "\"Cal can interact with some objects when pressing E too ;)\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "=",
+                        "\"Cal will fall asleep when he's not moving for a while... But don't worry, he's fine!!\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "=",
+                        "\"\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7186,103 +7719,111 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ToggleObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Speaker",
-                    "soundPlaying"
-                  ]
-                }
-              ],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "ObjectVariableAsBoolean"
+                        "value": "MouseButtonPressed"
                       },
                       "parameters": [
-                        "Speaker",
-                        "soundPlaying",
-                        "False"
+                        "",
+                        "Left"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "ModGlobalVolume"
-                      },
-                      "parameters": [
-                        "",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetAnimationName"
+                        "value": "ToggleObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "Speaker",
-                        "\"SoundOff\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Speaker",
-                        "soundPlaying",
-                        "True"
+                        "soundPlaying"
                       ]
                     }
                   ],
-                  "actions": [
+                  "events": [
                     {
-                      "type": {
-                        "value": "ModGlobalVolume"
-                      },
-                      "parameters": [
-                        "",
-                        "=",
-                        "100"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Speaker",
+                            "soundPlaying",
+                            "False"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModGlobalVolume"
+                          },
+                          "parameters": [
+                            "",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Speaker",
+                            "\"SoundOff\""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Speaker",
-                        "\"SoundOn\""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Speaker",
+                            "soundPlaying",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModGlobalVolume"
+                          },
+                          "parameters": [
+                            "",
+                            "=",
+                            "100"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Speaker",
+                            "\"SoundOn\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -8196,6 +8737,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8225,6 +8767,17 @@
                         "=",
                         "Random(5)"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
+                      ]
                     }
                   ],
                   "events": [
@@ -8233,6 +8786,7 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
+                      "folded": true,
                       "name": "Meowing",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
@@ -8504,6 +9058,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Sleeping",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8709,7 +9264,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8766,6 +9320,17 @@
                         "Bed.X()",
                         "=",
                         "Bed.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
                       ]
                     }
                   ]
@@ -8960,6 +9525,17 @@
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
+                      ]
                     }
                   ]
                 }
@@ -9090,6 +9666,17 @@
                         "Girl",
                         "\"Idle Down\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
+                      ]
                     }
                   ]
                 }
@@ -9177,6 +9764,17 @@
                         "yes",
                         "",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
                       ]
                     }
                   ]
@@ -9376,6 +9974,17 @@
                         "25",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
+                      ]
                     }
                   ]
                 }
@@ -9448,6 +10057,17 @@
                         "Couch.X()",
                         "=",
                         "Couch.Y() - 9"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
                       ]
                     }
                   ]
@@ -9560,6 +10180,17 @@
                         "Stove",
                         "\"StoveOn\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
+                      ]
                     }
                   ]
                 }
@@ -9642,6 +10273,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9704,6 +10336,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9787,6 +10420,17 @@
                         "Refrigerator",
                         "\"Closed\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
+                      ]
                     }
                   ]
                 }
@@ -9806,7 +10450,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -9876,6 +10519,17 @@
                         "yes",
                         "",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "StatusBoxText",
+                        "txtStatus",
+                        "=",
+                        "\"Tutorial2\""
                       ]
                     }
                   ]
