@@ -1,6 +1,6 @@
 # Cal's journey
 
-Play a cozy journey with Cal, the lazy cat 🐈‍⬛.
+Play a cozy adventure with Cal, the lazy cat 🐈‍⬛
 
 
  ⚠️ **Spoiler alert!**
