@@ -2379,6 +2379,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MessageBg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/MessageBg.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2426,7 +2435,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33432439075169623,
+        "zoomFactor": 0.6686487815033927,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3155,7 +3164,7 @@
           "width": 1924,
           "x": -2,
           "y": 110,
-          "zOrder": -5,
+          "zOrder": -9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3163,14 +3172,44 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 82,
+          "height": 112,
           "layer": "UI",
           "name": "StatusBoxText",
           "persistentUuid": "875e6176-9d56-455c-b2d8-326c2fed9f16",
-          "width": 698,
+          "width": 591,
           "x": 1106,
           "y": 15,
           "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Background2",
+          "persistentUuid": "14999dd6-d2d7-4c11-a392-7c6b7066ddf4",
+          "width": 0,
+          "x": 1132,
+          "y": 23,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 130,
+          "layer": "UI",
+          "name": "MessageBg",
+          "persistentUuid": "a2edf964-095c-4ec9-b5b8-dc9efb6636b1",
+          "width": 713,
+          "x": 1030,
+          "y": 0,
+          "zOrder": -8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7372,11 +7411,52 @@
             "opacity": 255,
             "fontSize": 20,
             "visible": true,
-            "color": "0;0;0",
+            "color": "255;255;255",
             "fontFamily": "assets/8-bit-pusab.ttf",
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MessageBg",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/MessageBg.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -7385,7 +7465,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Start Game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7527,7 +7606,6 @@
               "actions": []
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7547,7 +7625,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Tutorial",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -7590,7 +7667,7 @@
                           "parameters": [
                             "StatusBoxText",
                             "=",
-                            "\"Press [outline=white]E[/outline] to interact with the house's objects\""
+                            "\"Press [outline=black]E[/outline] to interact with the house's objects\""
                           ]
                         }
                       ]
@@ -7633,7 +7710,7 @@
                           "parameters": [
                             "StatusBoxText",
                             "=",
-                            "\"Press [outline=white]E[/outline] to interact with the house's objects\""
+                            "\"Press [outline=black]E[/outline] to interact with the house's objects\""
                           ]
                         }
                       ]
@@ -7676,7 +7753,7 @@
                           "parameters": [
                             "StatusBoxText",
                             "=",
-                            "\"Press [outline=white]E[/outline] to interact with the house's objects\""
+                            "\"Press [outline=black]E[/outline] to interact with the house's objects\""
                           ]
                         }
                       ]
@@ -7719,7 +7796,7 @@
                           "parameters": [
                             "StatusBoxText",
                             "=",
-                            "\"Press [outline=white]E[/outline] to interact with the house's objects\""
+                            "\"Press [outline=black]E[/outline] to interact with the house's objects\""
                           ]
                         }
                       ]
@@ -7747,7 +7824,7 @@
                           "parameters": [
                             "StatusBoxText",
                             "=",
-                            "\"Press [outline=white]S[/outline] to switch characters!\""
+                            "\"Press [outline=black]S[/outline] to switch characters!\""
                           ]
                         }
                       ]
@@ -11352,6 +11429,58 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "StatusBoxText",
+                "=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "MessageBg"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "StatusBoxText",
+                "=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "MessageBg",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
