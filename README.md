@@ -2,6 +2,7 @@
 
 Play a cozy adventure with Cal, the lazy cat 🐈‍⬛
 
+<img src="aseprites/Cat.gif" width="128"/>
 
  ⚠️ **Spoiler alert!**
  
