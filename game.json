@@ -2406,6 +2406,87 @@
         "name": "assets/SoundParticle.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blocker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Blocker.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DoorOpenVerticalLeft.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/DoorOpenVerticalLeft.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DoorClosedVerticalLeft.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/DoorClosedVerticalLeft.png\",\"extension\":\".png\"}",
+        "name": "assets/DoorClosedVerticalLeft.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DoorClosedHorizontal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/DoorClosedHorizontal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DoorOpenedHorizontal.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/DoorOpenedHorizontal.png\",\"extension\":\".png\"}",
+        "name": "assets/DoorOpenedHorizontal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Heart4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Heart3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Heart2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Heart1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2459,7 +2540,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 3.468520752091202,
+        "zoomFactor": 4.697263468185223,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2526,6 +2607,17 @@
             },
             {
               "name": "Speaker"
+            }
+          ]
+        },
+        {
+          "name": "Door",
+          "objects": [
+            {
+              "name": "DoorVertical"
+            },
+            {
+              "name": "DoorHorizontal"
             }
           ]
         }
@@ -2722,13 +2814,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 71,
+          "height": 63,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "2182341e-3ed7-493b-bdc5-777e6bb32460",
-          "width": 16,
-          "x": 248,
-          "y": 438,
+          "width": 24,
+          "x": 240,
+          "y": 437,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -2771,8 +2863,8 @@
           "layer": "",
           "name": "Wall",
           "persistentUuid": "4af4f0f7-e745-4489-95a7-32948e2fc2bd",
-          "width": 108,
-          "x": 365,
+          "width": 112,
+          "x": 361,
           "y": 529,
           "zOrder": 20,
           "numberProperties": [],
@@ -2797,13 +2889,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 71,
+          "height": 75,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "90a8a49c-f57d-452a-8ff5-16c1609792d8",
-          "width": 16,
-          "x": 249,
-          "y": 536,
+          "width": 25,
+          "x": 240,
+          "y": 532,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -2816,7 +2908,7 @@
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "6e161327-3567-40fc-a2a2-693dd9f1c31f",
-          "width": 141,
+          "width": 147,
           "x": 108,
           "y": 392,
           "zOrder": -999,
@@ -3101,7 +3193,7 @@
           "layer": "",
           "name": "Wall",
           "persistentUuid": "ef628389-069d-4904-b0ba-f803f6afefbe",
-          "width": 57,
+          "width": 58,
           "x": 249,
           "y": 532,
           "zOrder": 20,
@@ -3146,8 +3238,8 @@
           "layer": "",
           "name": "Wall",
           "persistentUuid": "54cc863c-d3dc-4956-b416-f7b246e45586",
-          "width": 33,
-          "x": 455,
+          "width": 38,
+          "x": 450,
           "y": 498,
           "zOrder": 32,
           "numberProperties": [],
@@ -3255,6 +3347,81 @@
           "x": 338,
           "y": 578,
           "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorHorizontal",
+          "persistentUuid": "29458e7c-0c3a-4b3a-9529-0c5325091640",
+          "width": 0,
+          "x": 336,
+          "y": 486,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorHorizontal",
+          "persistentUuid": "3e37f613-57dd-41e3-b743-39669f9b6486",
+          "width": 0,
+          "x": 426,
+          "y": 486,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorHorizontal",
+          "persistentUuid": "b93d3c69-065b-4a0f-a523-46db2b3d2411",
+          "width": 0,
+          "x": 337,
+          "y": 519,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorHorizontal",
+          "persistentUuid": "57c27b3f-ae28-4465-a9b9-3a5f6fb17e1a",
+          "width": 0,
+          "x": 307,
+          "y": 523,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "DoorVertical",
+          "persistentUuid": "9e72b493-84b9-49b5-a535-a79db3349d46",
+          "width": 0,
+          "x": 241,
+          "y": 500,
+          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6368,16 +6535,67 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Heart",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets/Heart.png",
+                      "image": "assets/Heart4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Heart3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Heart2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/Heart1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6890,7 +7108,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Bed.png",
                       "points": [],
                       "originPoint": {
@@ -6904,7 +7122,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7741,6 +7978,250 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Blocker",
+          "tags": "",
+          "texture": "assets/Blocker.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "DoorVertical",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "isOpen",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Closed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/DoorClosedVerticalLeft.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.030517578125,
+                            "y": 0.06201171875
+                          },
+                          {
+                            "x": 15.9794921875,
+                            "y": 0
+                          },
+                          {
+                            "x": 15.995361328125,
+                            "y": 32
+                          },
+                          {
+                            "x": 7.9677734375,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Opened",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/DoorOpenVerticalLeft.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "DoorHorizontal",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "isOpen",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Closed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/DoorClosedHorizontal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 14.015625
+                          },
+                          {
+                            "x": 24,
+                            "y": 13.96435546875
+                          },
+                          {
+                            "x": 24,
+                            "y": 17.994873046875
+                          },
+                          {
+                            "x": 0,
+                            "y": 18.081298828125
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Opened",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/DoorOpenedHorizontal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.94189453125,
+                            "y": 7.99267578125
+                          },
+                          {
+                            "x": 5.8427734375,
+                            "y": 8.003662109375
+                          },
+                          {
+                            "x": 5.91357421875,
+                            "y": 32
+                          },
+                          {
+                            "x": 2.0390625,
+                            "y": 31.947021484375
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -7749,7 +8230,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Start Game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7805,6 +8285,14 @@
                     "playSongWithId",
                     "=",
                     "RandomInRange(0,11)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Blocker"
                   ]
                 }
               ],
@@ -9019,6 +9507,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "House Interactions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9028,7 +9517,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Living Room",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9350,11 +9838,13 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Office",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -9371,6 +9861,7 @@
                   "actions": [],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -9489,6 +9980,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -9505,6 +9997,7 @@
                   "actions": [],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -10932,6 +11425,356 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Doors",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Open and Close",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Player",
+                        "DoorHorizontal",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "DoorVertical",
+                        "isOpen",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Player",
+                        "DoorVertical",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "DoorVertical",
+                        "\"Closed\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "DoorVertical",
+                        "isOpen",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "DoorVertical",
+                        "\"Opened\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "DoorHorizontal",
+                        "isOpen",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "DoorHorizontal",
+                        "\"Opened\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "DoorHorizontal",
+                        "isOpen",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "DoorHorizontal",
+                        "\"Closed\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "PlayerId",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Girl",
+                        "DoorHorizontal",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "e"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ToggleObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "DoorHorizontal",
+                            "isOpen"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Girl",
+                        "DoorVertical",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "e"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ToggleObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "DoorVertical",
+                            "isOpen"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "PlayerId",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Cat",
+                        "Door",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "e"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets/meow4.wav",
+                            "",
+                            "20",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "folded": true,
           "name": "Players Mechanics",
           "source": "",
@@ -11536,7 +12379,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Movement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12099,7 +12941,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12125,7 +12966,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "interactions 01",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -12204,6 +13044,14 @@
                             "StatusBoxText",
                             "=",
                             "\"\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "5"
                           ]
                         }
                       ]
