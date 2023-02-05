@@ -2495,6 +2495,9 @@
             },
             {
               "name": "SoundPlayer"
+            },
+            {
+              "name": "TV"
             }
           ]
         },
@@ -6414,7 +6417,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Couch.png",
                       "points": [],
                       "originPoint": {
@@ -6428,7 +6431,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 31.92529296875,
+                            "y": 8.330078125
+                          },
+                          {
+                            "x": 31.130859375,
+                            "y": 8.953369140625
+                          },
+                          {
+                            "x": 0.2041015625,
+                            "y": 8.533203125
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6946,7 +6972,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/TV.png",
                       "points": [],
                       "originPoint": {
@@ -6960,7 +6986,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3.189453125,
+                            "y": 3.653564453125
+                          },
+                          {
+                            "x": 27.452392578125,
+                            "y": 3.58056640625
+                          },
+                          {
+                            "x": 28.06103515625,
+                            "y": 20.64453125
+                          },
+                          {
+                            "x": 3.0234375,
+                            "y": 20.236572265625
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -6987,7 +7032,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/Stove.png",
                       "points": [],
                       "originPoint": {
@@ -7001,7 +7046,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.916015625,
+                            "y": 7.46484375
+                          },
+                          {
+                            "x": 7.998779296875,
+                            "y": 0.923583984375
+                          },
+                          {
+                            "x": 16,
+                            "y": 0.798583984375
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 2.0068359375,
+                            "y": 16
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7016,7 +7084,7 @@
                   "timeBetweenFrames": 0.0667,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/StoveLightOn3.png",
                       "points": [],
                       "originPoint": {
@@ -7030,10 +7098,33 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.916015625,
+                            "y": 7.46484375
+                          },
+                          {
+                            "x": 7.998779296875,
+                            "y": 0.923583984375
+                          },
+                          {
+                            "x": 16,
+                            "y": 0.798583984375
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 2.0068359375,
+                            "y": 16
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/StoveLightOn2.png",
                       "points": [],
                       "originPoint": {
@@ -7047,10 +7138,33 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.916015625,
+                            "y": 7.46484375
+                          },
+                          {
+                            "x": 7.998779296875,
+                            "y": 0.923583984375
+                          },
+                          {
+                            "x": 16,
+                            "y": 0.798583984375
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 2.0068359375,
+                            "y": 16
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "assets/StoveLightOn1.png",
                       "points": [],
                       "originPoint": {
@@ -7064,7 +7178,30 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.916015625,
+                            "y": 7.46484375
+                          },
+                          {
+                            "x": 7.998779296875,
+                            "y": 0.923583984375
+                          },
+                          {
+                            "x": 16,
+                            "y": 0.798583984375
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 2.0068359375,
+                            "y": 16
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7612,6 +7749,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Start Game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7739,18 +7877,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": []
             },
             {
               "folded": true,
@@ -8362,6 +8488,31 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SongPlaying",
+                        "SoundPlayer.CenterX()",
+                        "SoundPlayer.CenterY()",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "SoundStopped"
                       },
                       "parameters": [
@@ -8868,7 +9019,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "House Interactions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9355,7 +9505,6 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -9372,7 +9521,6 @@
                   "actions": [],
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -9412,23 +9560,23 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "SetAnimationName"
-                              },
-                              "parameters": [
-                                "Girl",
-                                "\"MovingArms\""
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "MettreXY"
                               },
                               "parameters": [
                                 "Girl",
                                 "=",
-                                "Stove.X()-Girl.Width()/1.5",
+                                "Stove.X()",
                                 "=",
                                 "Stove.Y() - 8"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetAnimationName"
+                              },
+                              "parameters": [
+                                "Girl",
+                                "\"MovingArms\""
                               ]
                             },
                             {
@@ -10207,36 +10355,6 @@
                                 "txtStatus",
                                 "=",
                                 "\"Tutorial2\""
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "GlobalVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "musicIsPlaying",
-                                    "True"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "SongPlaying",
-                                    "SoundPlayer.CenterX()",
-                                    "SoundPlayer.CenterY()",
-                                    ""
-                                  ]
-                                }
                               ]
                             }
                           ]
@@ -11272,6 +11390,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Movement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -11799,6 +11918,131 @@
                 }
               ],
               "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Level one: house",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "tutorialOn",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "interactions 01",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "15"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"human can turn on and off the radio in the bedroom pressing [outline=black]E[/outline]\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"if Cal is hungry, he can eat in his food bowl.\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "StatusBoxText",
+                            "=",
+                            "\"\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ]
             }
           ],
           "parameters": []
