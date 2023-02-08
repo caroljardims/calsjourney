@@ -2510,6 +2510,33 @@
         "name": "NewSprite3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/black-bg.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "black-bg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/white-bg.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "white-bg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Button.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -11448,6 +11475,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Doors",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13184,7 +13212,7 @@
           "persistentUuid": "3474dc75-83bf-453e-ad15-4fcfdf3bc1e2",
           "width": 1472,
           "x": 224,
-          "y": 128,
+          "y": 192,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -13199,7 +13227,7 @@
           "persistentUuid": "0f2a7022-1eb1-4ef6-9813-b8ab65bb615b",
           "width": 224,
           "x": 512,
-          "y": 352,
+          "y": 416,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -13215,7 +13243,52 @@
           "width": 128,
           "x": 864,
           "y": 224,
-          "zOrder": 4,
+          "zOrder": 1000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "name": "Title",
+          "persistentUuid": "45930716-be05-424d-83ac-2378828fc942",
+          "width": 608,
+          "x": 640,
+          "y": 37,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "Button",
+          "persistentUuid": "6170f574-aa09-4c5c-bd4c-0457a9f222ad",
+          "width": 416,
+          "x": 704,
+          "y": 672,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Start",
+          "persistentUuid": "4a1f7725-0488-490d-82e5-0575e8508163",
+          "width": 416,
+          "x": 704,
+          "y": 704,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13399,7 +13472,7 @@
           "height": 32,
           "name": "BG",
           "tags": "",
-          "texture": "New image",
+          "texture": "black-bg",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -13417,7 +13490,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "white-bg",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -13427,7 +13500,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite3",
+                      "image": "white-bg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13554,6 +13627,112 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Title",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Cal's Journey",
+          "font": "assets/8-bit-pusab.ttf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "additive": false,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 10,
+          "emitterForceMin": 0,
+          "flow": 2,
+          "maxParticleNb": 2,
+          "name": "SleepingZ",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 1,
+          "particleAngle2": 1,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 255,
+          "particleBlue2": 255,
+          "particleGravityX": 0,
+          "particleGravityY": -100,
+          "particleGreen1": 255,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 1,
+          "particleLifeTimeMin": 1,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 400,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 3,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "assets/Z-sleeping.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": -32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Button",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "assets/Button.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Start",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Start",
+          "font": "assets/8-bit-pusab.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -13603,9 +13782,9 @@
               },
               "parameters": [
                 "",
-                "assets/meow5.wav",
+                "assets/meow4.wav",
                 "",
-                "",
+                "20",
                 ""
               ]
             },
@@ -13646,6 +13825,103 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Cat",
+                "\"Sleeping\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "SleepingZ",
+                "Cat.X()",
+                "Cat.Y()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Cat",
+                "\"Sleeping\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "SleepingZ",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "Button",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Button",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Main Scene\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -13669,6 +13945,17 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 9003984,
+          "ambientLightColorG": 6063568,
+          "ambientLightColorR": 8480352,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Layer",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
